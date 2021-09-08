@@ -89,3 +89,24 @@
 
 //! Lecture 11 Template literal in JSX
 
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const flname = "Abhay kant";
+const lname ="tiwari";
+
+ReactDOM.render(
+<>
+  <h1>My name is {flname} {lname}</h1>
+
+  {/* or */}
+
+  <h1>My name is {flname+" "+lname}</h1>
+
+  {/* template literal */}
+
+  <h1>{`My name is ${flname} ${lname}`}</h1>
+</>
+  ,document.getElementById("root")
+);
