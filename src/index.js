@@ -53,7 +53,7 @@
 //   document.getElementById("root")
 // );
 
-//! Lecture 8 => jsx challenge
+//! Lecture 8 => jsx challenge 1
 
 // import React from "react";
 // import reactDom from "react-dom";
@@ -110,3 +110,55 @@
 // </>
 //   ,document.getElementById("root")
 // );
+
+//! Lecture 12 => jsx challenge 2
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+// const name = "Abhay kant tiwari";
+// const currDate = new Date().toLocaleDateString();
+// const currTime = new Date().toLocaleTimeString();
+// ReactDOM.render(
+//   <>
+//     <p>{`My name is ${name}`}</p>
+//     <p>{`Current Date is = ${currDate}`}</p>
+//     <p>Current time is = {currTime}</p>
+//   </>,
+//   document.getElementById("root"));
+
+//! Lecture 13 => jsx attribute in ReactJS
+
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+// const name = "Abhay kant tiwari";
+// ReactDOM.render(
+//   <>
+//    <p>My name is {name}</p> 
+//    <img src="https://picsum.photos/200/300" alt="randomImage" />
+//   </>,
+//   document.getElementById("root"));
+
+  // TODO  if we add number of more image then previous process is not so good 
+
+  // import React from "react";
+  // import ReactDOM from "react-dom";
+
+  // const name = "Abhay kant tiwari";
+  // const img1 = "https://picsum.photos/200/300";
+  // const img2 = "https://picsum.photos/200/300";
+  // const img3 = "https://picsum.photos/200/300";
+  // const img4 = "https://picsum.photos/200/300";
+  // const link = "https://coder.mysirg.com/";
+  // ReactDOM.render(
+  // <>
+  //  <p>My name is {name}</p> 
+  //  <img src={img1} alt="randomImage" />
+  //  <img src={img2} alt="randomImage" />
+  //  <img src={img3} alt="randomImage" />
+  //   <a href={link} target="_blank">
+  //     <img src={img4} alt="randomImage" />
+  //   </a>
+  // </>,
+  // document.getElementById("root")); 
